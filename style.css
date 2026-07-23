@@ -111,7 +111,7 @@ section.hero{
 
 /* ---------- hero photo ---------- */
 .hero-photo{
-  width:100%;max-width:480px;margin-block:1.6rem;display:block;
+  width:493px;height:auto;max-width:100%;margin:1.6rem auto;display:block;
 }
 
 /* ---------- SECTION shells ---------- */
@@ -238,7 +238,7 @@ section{padding-block:clamp(3.2rem,7vw,5.5rem);}
 .plan-card.featured .plan-sub{color:var(--text-ondark-mute);}
 .accent-gold{color:var(--gold);}
 .accent-white{color:#fff;}
-.plan-photo{display:block;width:200px;margin:1rem auto 0;}
+.plan-photo{display:block;width:290px;height:auto;max-width:100%;margin:1rem auto 0;}
 .price-block{margin-block:1.3rem;text-align:center;}
 .price-block .old{font-family:var(--font-body);font-size:1rem;color:var(--red);text-decoration:line-through;}
 .price-block .now{font-family:var(--font-body);font-weight:700;font-size:clamp(2.2rem,5vw,2.7rem);color:var(--blue);line-height:1;}

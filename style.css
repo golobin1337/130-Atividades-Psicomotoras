@@ -240,7 +240,7 @@ ul.plan-list{list-style:none;margin:1.3rem 0;padding:0;display:flex;flex-directi
 ul.plan-list li{font-size:.94rem;display:flex;gap:.55rem;align-items:flex-start;}
 ul.plan-list li.no{color:var(--text-mute);}
 .plan-card.featured ul.plan-list li:not(.no){color:var(--text-ondark);}
-.plan-card a.button{width:100%;margin-top:.6rem;}
+.plan-card a.button{width:100%;margin-top:.6rem;padding-inline:1rem;font-size:.82rem;white-space:nowrap;}
 .plan-security{text-align:center;font-size:.78rem;color:var(--text-mute);margin-top:.9rem;}
 .plan-card.featured .plan-security{color:var(--text-ondark-mute);}
 

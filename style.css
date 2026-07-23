@@ -15,6 +15,7 @@
   --green-btn:#2fa84a;
   --green-btn-deep:#1f7f38;
   --red:#d00000;
+  --coral:#ee6b4d;
   --line:#dcdcdc;
   --line-dark:rgba(255,255,255,.16);
   --radius-s:6px;
@@ -55,7 +56,15 @@ p{margin:0;}
   letter-spacing:.14em;
   text-transform:uppercase;
 }
-.eyebrow-sm{font-size:.6rem;}
+.eyebrow-sm{font-size:.5rem;}
+.hero-eyebrow{
+  font-family:var(--font-body);
+  font-size:.72rem;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--blue);
+}
 a.button{
   display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
   font-family:var(--font-body);font-weight:700;font-size:.92rem;letter-spacing:.03em;
@@ -91,7 +100,6 @@ section.hero{
 }
 .hero-stack{display:flex;flex-direction:column;align-items:center;gap:clamp(1.5rem,4vw,2.5rem);text-align:center;}
 .hero-copy{max-width:54ch;display:flex;flex-direction:column;align-items:center;}
-.hero-copy .eyebrow{color:var(--blue);}
 .hero-copy h1{font-size:clamp(2.1rem,4.6vw,3.25rem);line-height:1.12;margin-block:.9rem 0;color:var(--text-dark);}
 .accent{color:var(--blue);}
 .sec-blue .accent{color:var(--gold);}
@@ -225,12 +233,12 @@ section{padding-block:clamp(3.2rem,7vw,5.5rem);}
   font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
   padding:.5rem 1.2rem;border-radius:999px;box-shadow:0 6px 14px rgba(10,24,48,.25);
 }
-.plan-card h3{font-size:1.3rem;}
-.plan-card .plan-sub{font-size:.92rem;color:var(--text-mute);margin-top:.3rem;}
+.plan-card h3{font-size:1.3rem;text-align:center;}
+.plan-card .plan-sub{font-size:.92rem;color:var(--text-mute);margin-top:.3rem;text-align:center;}
 .plan-card.featured .plan-sub{color:var(--text-ondark-mute);}
 .accent-gold{color:var(--gold);}
 .plan-photo{display:block;width:200px;margin:1rem auto 0;}
-.price-block{margin-block:1.3rem;}
+.price-block{margin-block:1.3rem;text-align:center;}
 .price-block .old{font-family:var(--font-body);font-size:1rem;color:var(--red);text-decoration:line-through;}
 .price-block .now{font-family:var(--font-body);font-weight:700;font-size:clamp(2.2rem,5vw,2.7rem);color:var(--blue);line-height:1;}
 .plan-card.featured .price-block .now{color:#fff;}
@@ -263,7 +271,12 @@ details.faq summary:focus-visible{outline:2px solid var(--blue);outline-offset:3
   background:#f1fdf6;border:2px dashed var(--green-btn);border-radius:var(--radius-m);
   padding:1.7rem 1.9rem;max-width:760px;margin-inline:auto;
 }
-.guarantee-box .icon{width:56px;height:56px;flex:none;}
+.guarantee-badge{
+  width:56px;height:56px;flex:none;border-radius:16px;
+  background:var(--coral);display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 18px rgba(238,107,77,.35);
+}
+.guarantee-badge svg{width:28px;height:28px;}
 .guarantee-box h3{font-size:1.15rem;margin-bottom:.5rem;color:var(--text-dark);}
 .guarantee-box p{font-size:.95rem;color:var(--text-mute);}
 @media (max-width:560px){

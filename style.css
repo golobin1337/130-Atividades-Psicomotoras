@@ -111,7 +111,7 @@ section.hero{
 
 /* ---------- hero photo ---------- */
 .hero-photo{
-  width:493px;height:auto;max-width:100%;margin:1.6rem auto;display:block;
+  width:493px;height:auto;max-width:100%;margin:0 auto 1.6rem;display:block;
 }
 
 /* ---------- SECTION shells ---------- */

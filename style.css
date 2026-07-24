@@ -100,7 +100,7 @@ section.hero{
 }
 .hero-stack{display:flex;flex-direction:column;align-items:center;gap:clamp(1.5rem,4vw,2.5rem);text-align:center;}
 .hero-copy{max-width:54ch;display:flex;flex-direction:column;align-items:center;}
-.hero-copy h1{font-size:clamp(2.1rem,4.6vw,3.25rem);line-height:1.12;margin-block:.9rem 0;color:var(--text-dark);}
+.hero-copy h1{font-size:clamp(2.1rem,4.6vw,3.25rem);line-height:1.12;margin-block:.9rem 1.1rem;color:var(--text-dark);}
 .accent{color:var(--blue);}
 .sec-blue .accent{color:var(--gold);}
 .sec-yellow .accent{color:var(--blue);}

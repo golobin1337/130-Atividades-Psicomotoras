@@ -298,4 +298,6 @@ footer a{color:var(--gold);}
   .ledger-row{grid-template-columns:40px 1fr;}
   .r-row{grid-template-columns:1fr;text-align:center;justify-items:center;}
   .r-price{text-align:center;}
+  .hero-photo{width:260px;}
+  .hero-copy h1{font-size:1.7rem;}
 }
